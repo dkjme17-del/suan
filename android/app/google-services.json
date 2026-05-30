@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714989301859",
+    "project_id": "suan-16f16",
+    "storage_bucket": "suan-16f16.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714989301859:android:139aeb6d3416a516fb4856",
+        "android_client_info": {
+          "package_name": "com.example.suan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOl-cHklAVjIyFW4IdvwKBj_8ia1qPMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

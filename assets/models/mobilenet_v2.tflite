@@ -1,0 +1,4 @@
+Placeholder model file for MobileNetV2.
+Replace this file with a real .tflite model downloaded from TensorFlow Hub
+or unzipped from an official MobileNet package.
+

@@ -1,0 +1,16 @@
+{
+  "name": "suan-functions",
+  "description": "Firebase Functions backend for AKWABA Baoulé tutor",
+  "private": true,
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-functions": "^4.8.0",
+    "node-fetch": "^3.3.2"
+  }
+}

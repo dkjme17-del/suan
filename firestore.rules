@@ -1,0 +1,109 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ✅ Permet aux utilisateurs authentifiés de lire/écrire leurs propres documents
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == userId &&
+        (
+          // Empêche l'utilisateur de changer l'ID du document
+          !("userId" in request.resource.data) ||
+          request.resource.data.userId == userId
+        );
+    }
+
+    // ✅ Leçons - créable et lisible par tous au démarrage
+    match /lessons/{document=**} {
+      allow read, write, create: if true;
+    }
+
+    // ✅ Catégories Quiz - créable et lisible par tous au démarrage
+    match /quiz_categories/{document=**} {
+      allow read, write, create: if true;
+    }
+
+    // ✅ Questions Quiz - créable et lisible par tous au démarrage
+    match /quiz_questions/{document=**} {
+      allow read, write, create: if true;
+    }
+
+    // ✅ Défis quotidiens - créable et lisible par tous au démarrage
+    match /daily_challenges/{document=**} {
+      allow read, write, create: if true;
+    }
+
+    // ✅ Paramètres application - créable et lisible par tous
+    match /_settings/{document=**} {
+      allow read, write, create: if true;
+    }
+
+    // ✅ Résultats de quiz - seulement l'utilisateur peut créer/modifier les siens
+    match /quiz_results/{document=**} {
+      allow read, write: if request.auth != null && 
+                            request.resource.data.userId == request.auth.uid;
+    }
+
+    // ✅ Classement global - lisible par tous
+    match /leaderboard/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // ✅ Commentaires - créer/lire pour utilisateurs authentifiés
+    match /comments/{document=**} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && 
+                       request.resource.data.userId == request.auth.uid;
+      allow update, delete: if request.auth != null && 
+                               resource.data.userId == request.auth.uid;
+    }
+
+    // ✅ Actualités - lisible par tous
+    match /news/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // ✅ Réussissements - lisible par tous
+    match /achievements/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // ✅ Réussissements utilisateur - seulement l'utilisateur peut modifier les siens
+    match /user_achievements/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && 
+                      request.resource.data.userId == request.auth.uid;
+    }
+
+    // ✅ Communauté - lisible par tous, créable par utilisateurs authentifiés
+    match /community/{document=**} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && 
+                       request.resource.data.authorId == request.auth.uid;
+      allow update, delete: if request.auth != null && 
+                               resource.data.authorId == request.auth.uid;
+    }
+
+    // ✅ Quiz - lisible par tous, modifiable par admin
+    match /quizzes/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // Deny everything else
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /profile_pics/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

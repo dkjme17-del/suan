@@ -1,0 +1,11 @@
+apple
+banana
+orange
+tree
+house
+car
+book
+phone
+water
+person
+

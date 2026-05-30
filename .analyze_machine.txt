@@ -1,0 +1,240 @@
+
+   info - Don't invoke 'print' in production code - add_test_data.dart:10:3 - avoid_print
+   info - Don't invoke 'print' in production code - add_test_data.dart:395:3 - avoid_print
+   info - Don't invoke 'print' in production code - add_test_data.dart:396:3 - avoid_print
+   info - Don't invoke 'print' in production code - add_test_data.dart:397:3 - avoid_print
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:139:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:217:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:261:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:302:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:358:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\core\animations\animation_system.dart:421:9 - use_super_parameters
+   info - Dangling library doc comment - lib\core\config\firebase_config.dart:1:1 - dangling_library_doc_comments
+   info - The constant name 'LEARNING_MODE_CLASSIC' isn't a lowerCamelCase identifier - lib\core\constants.dart:4:23 - constant_identifier_names
+   info - The constant name 'LEARNING_MODE_LUDIQUE' isn't a lowerCamelCase identifier - lib\core\constants.dart:5:23 - constant_identifier_names
+   info - The constant name 'LEARNING_MODE_NON_ALPHABETIC' isn't a lowerCamelCase identifier - lib\core\constants.dart:6:23 - constant_identifier_names
+   info - The constant name 'LEVEL_BEGINNER' isn't a lowerCamelCase identifier - lib\core\constants.dart:9:23 - constant_identifier_names
+   info - The constant name 'LEVEL_INTERMEDIATE' isn't a lowerCamelCase identifier - lib\core\constants.dart:10:23 - constant_identifier_names
+   info - The constant name 'LEVEL_ADVANCED' isn't a lowerCamelCase identifier - lib\core\constants.dart:11:23 - constant_identifier_names
+   info - The constant name 'LESSON_DURATION' isn't a lowerCamelCase identifier - lib\core\constants.dart:14:20 - constant_identifier_names
+   info - The constant name 'HIVE_BOX_USER' isn't a lowerCamelCase identifier - lib\core\constants.dart:17:23 - constant_identifier_names
+   info - The constant name 'HIVE_BOX_LESSONS' isn't a lowerCamelCase identifier - lib\core\constants.dart:18:23 - constant_identifier_names
+   info - The constant name 'HIVE_BOX_PROGRESS' isn't a lowerCamelCase identifier - lib\core\constants.dart:19:23 - constant_identifier_names
+   info - The constant name 'POINTS_LESSON_COMPLETE' isn't a lowerCamelCase identifier - lib\core\constants.dart:22:20 - constant_identifier_names
+   info - The constant name 'POINTS_QUIZ_CORRECT' isn't a lowerCamelCase identifier - lib\core\constants.dart:23:20 - constant_identifier_names
+   info - The constant name 'POINTS_PRONUNCIATION_GOOD' isn't a lowerCamelCase identifier - lib\core\constants.dart:24:20 - constant_identifier_names
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:30:9 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\app_theme.dart:119:9 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\baule_colors.dart:72:9 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\baule_colors.dart:128:37 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:10:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:12:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:15:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:22:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:28:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:34:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:36:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\utils\logger.dart:39:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\admin\presentation\pages\add_test_data_page.dart:35:7 - avoid_print
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\features\audio\domain\services\audio_service.dart:94:9 - deprecated_member_use
+   info - Use of 'return' in a 'finally' clause - lib\features\auth\presentation\pages\forgot_password_page.dart:51:21 - control_flow_in_finally
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\pages\login_page.dart:10:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:130:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:185:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:312:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:315:64 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\auth\presentation\pages\login_page.dart:352:52 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:359:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:365:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:435:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:458:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:538:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\login_page.dart:543:39 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\pages\mode_selection_page.dart:8:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\pages\register_page.dart:9:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:111:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:191:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:240:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:290:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:353:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:417:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:420:49 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\auth\presentation\pages\register_page.dart:473:37 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:481:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\pages\register_page.dart:582:53 - deprecated_member_use
+   info - The private field _useFirebase could be 'final' - lib\features\auth\presentation\viewmodels\auth_viewmodel.dart:16:8 - prefer_final_fields
+   info - Don't invoke 'print' in production code - lib\features\auth\presentation\viewmodels\auth_viewmodel.dart:56:15 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\auth\presentation\viewmodels\auth_viewmodel.dart:61:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\auth\presentation\viewmodels\auth_viewmodel.dart:119:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\auth\presentation\viewmodels\auth_viewmodel.dart:163:7 - avoid_print
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\widgets\premium_login_widget.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\widgets\premium_onboarding_widget.dart:8:9 - use_super_parameters
+   info - Instances of 'Color' should be created using an 8-digit hexadecimal integer (such as '0xFFFFFFFF') - lib\features\auth\presentation\widgets\premium_onboarding_widget.dart:230:38 - use_full_hex_values_for_flutter_colors
+   info - 'checkCircle' is deprecated and shouldn't be used. Use "circleCheck" instead - lib\features\auth\presentation\widgets\premium_onboarding_widget.dart:397:34 - deprecated_member_use
+   info - 'userFriends' is deprecated and shouldn't be used. Use "userGroup" instead - lib\features\auth\presentation\widgets\premium_onboarding_widget.dart:442:46 - deprecated_member_use
+   info - 'shareAlt' is deprecated and shouldn't be used. Use "shareNodes" instead - lib\features\auth\presentation\widgets\premium_onboarding_widget.dart:458:46 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\auth\presentation\widgets\premium_register_widget.dart:8:9 - use_super_parameters
+   info - The private field _currentStep could be 'final' - lib\features\auth\presentation\widgets\premium_register_widget.dart:25:7 - prefer_final_fields
+   info - 'checkCircle' is deprecated and shouldn't be used. Use "circleCheck" instead - lib\features\auth\presentation\widgets\premium_register_widget.dart:530:32 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\auth\presentation\widgets\premium_register_widget.dart:616:13 - deprecated_member_use
+warning - The value of the field '_practicePrompts' isn't used - lib\features\chatbot\domain\services\chatbot_service.dart:67:29 - unused_field
+   info - Invalid regular expression syntax - lib\features\chatbot\domain\services\chatbot_service.dart:328:14 - valid_regexps
+  error - Expected to find ',' - lib\features\chatbot\domain\services\chatbot_service.dart:328:39 - expected_token
+  error - Illegal character '8217' - lib\features\chatbot\domain\services\chatbot_service.dart:328:39 - illegal_character
+  error - Too many positional arguments: 1 expected, but 2 found - lib\features\chatbot\domain\services\chatbot_service.dart:328:39 - extra_positional_arguments_could_be_named
+  error - Undefined name '’' - lib\features\chatbot\domain\services\chatbot_service.dart:328:39 - undefined_identifier
+  error - Expected to find ')' - lib\features\chatbot\domain\services\chatbot_service.dart:328:40 - expected_token
+  error - Illegal character '192' - lib\features\chatbot\domain\services\chatbot_service.dart:328:47 - illegal_character
+  error - Illegal character '214' - lib\features\chatbot\domain\services\chatbot_service.dart:328:49 - illegal_character
+  error - Illegal character '216' - lib\features\chatbot\domain\services\chatbot_service.dart:328:50 - illegal_character
+  error - Illegal character '222' - lib\features\chatbot\domain\services\chatbot_service.dart:328:52 - illegal_character
+  error - The operator '*' isn't defined for the type 'RegExp' - lib\features\chatbot\domain\services\chatbot_service.dart:328:59 - undefined_operator
+  error - Expected an identifier - lib\features\chatbot\domain\services\chatbot_service.dart:328:60 - missing_identifier
+  error - Expected to find ';' - lib\features\chatbot\domain\services\chatbot_service.dart:328:60 - expected_token
+   info - An uninitialized field should have an explicit type annotation - lib\features\chatbot\domain\services\chatbot_service.dart:328:61 - prefer_typing_uninitialized_variables
+   info - Missing type annotation - lib\features\chatbot\domain\services\chatbot_service.dart:328:61 - strict_top_level_inference
+  error - Expected to find ';' - lib\features\chatbot\domain\services\chatbot_service.dart:328:61 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\features\chatbot\domain\services\chatbot_service.dart:328:61 - missing_const_final_var_or_type
+  error - Expected a class member - lib\features\chatbot\domain\services\chatbot_service.dart:328:62 - expected_class_member
+  error - Unterminated string literal - lib\features\chatbot\domain\services\chatbot_service.dart:328:64 - unterminated_string_literal
+   info - Don't invoke 'print' in production code - lib\features\community\domain\services\community_service.dart:61:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\domain\services\community_service.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\domain\services\community_service.dart:106:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\domain\services\community_service.dart:126:7 - avoid_print
+   info - The private field _friends could be 'final' - lib\features\community\presentation\viewmodels\community_realtime_viewmodel.dart:10:16 - prefer_final_fields
+   info - Don't invoke 'print' in production code - lib\features\community\presentation\viewmodels\community_realtime_viewmodel.dart:37:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\presentation\viewmodels\community_realtime_viewmodel.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\presentation\viewmodels\community_realtime_viewmodel.dart:63:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\community\presentation\viewmodels\community_realtime_viewmodel.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\cultural\domain\services\cultural_service.dart:99:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\cultural\domain\services\cultural_service.dart:117:7 - avoid_print
+   info - Parameters ''id', 'title', 'description', and 'audioPath'' could be super parameters - lib\features\cultural\domain\services\cultural_service.dart:276:3 - use_super_parameters
+   info - Parameters ''id' and 'audioPath'' could be super parameters - lib\features\cultural\domain\services\cultural_service.dart:306:3 - use_super_parameters
+   info - 'onBackground' is deprecated and shouldn't be used. Use onSurface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\features\home\presentation\pages\home_page_realtime.dart:90:60 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\pages\lesson_detail_page.dart:198:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\pages\lesson_detail_page.dart:205:45 - use_build_context_synchronously
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\pages\lesson_selection_page.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\pages\onboarding_page.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\pages\onboarding_page.dart:183:9 - use_super_parameters
+   info - 'tools' is deprecated and shouldn't be used. Use "screwdriverWrench" instead - lib\features\learning\presentation\pages\pronunciation_practice_page.dart:154:35 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\screens\community_screen.dart:8:9 - use_super_parameters
+   info - 'userFriends' is deprecated and shouldn't be used. Use "userGroup" instead - lib\features\learning\presentation\screens\community_screen.dart:432:30 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:785:42 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:797:42 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:818:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:824:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:830:29 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\learning\presentation\screens\community_screen.dart:904:35 - use_build_context_synchronously
+   info - The local variable '_commentController' starts with an underscore - lib\features\learning\presentation\screens\community_screen.dart:978:25 - no_leading_underscores_for_local_identifiers
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\community_screen.dart:998:39 - use_build_context_synchronously
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\screens\learning_screen.dart:6:9 - use_super_parameters
+   info - 'volumeUp' is deprecated and shouldn't be used. Use "volumeHigh" instead - lib\features\learning\presentation\screens\learning_screen.dart:95:36 - deprecated_member_use
+   info - 'checkCircle' is deprecated and shouldn't be used. Use "circleCheck" instead - lib\features\learning\presentation\screens\learning_screen.dart:306:46 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\screens\profile_screen.dart:19:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\learning\presentation\screens\profile_screen.dart:152:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\learning\presentation\screens\profile_screen.dart:169:41 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:912:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:913:17 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:920:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:921:17 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:959:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:960:17 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:967:17 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\features\learning\presentation\screens\profile_screen.dart:968:17 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\learning\presentation\screens\profile_screen.dart:1063:7 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\learning\presentation\screens\profile_screen.dart:1212:22 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\learning\presentation\screens\profile_screen.dart:1495:31 - use_build_context_synchronously
+   info - The private field _favorites could be 'final' - lib\features\learning\presentation\viewmodels\learning_viewmodel.dart:15:16 - prefer_final_fields
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\viewmodels\lesson_realtime_viewmodel.dart:69:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\viewmodels\lesson_realtime_viewmodel.dart:72:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\viewmodels\lesson_realtime_viewmodel.dart:82:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\viewmodels\lesson_realtime_viewmodel.dart:112:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\viewmodels\lesson_realtime_viewmodel.dart:115:7 - avoid_print
+   info - 'userFriends' is deprecated and shouldn't be used. Use "userGroup" instead - lib\features\learning\presentation\widgets\enhanced_dashboard.dart:258:36 - deprecated_member_use
+   info - 'userFriends' is deprecated and shouldn't be used. Use "userGroup" instead - lib\features\learning\presentation\widgets\enhanced_dashboard.dart:277:38 - deprecated_member_use
+   info - 'ellipsisH' is deprecated and shouldn't be used. Use "ellipsis" instead - lib\features\learning\presentation\widgets\enhanced_dashboard.dart:406:32 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\widgets\gamification_widget.dart:11:9 - use_super_parameters
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\features\learning\presentation\widgets\gamification_widget.dart:245:12 - sized_box_for_whitespace
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\widgets\home_dashboard.dart:10:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\features\learning\presentation\widgets\home_dashboard.dart:38:57 - use_build_context_synchronously
+   info - 'userFriends' is deprecated and shouldn't be used. Use "userGroup" instead - lib\features\learning\presentation\widgets\home_dashboard.dart:323:42 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\widgets\object_recognition_widget.dart:12:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\widgets\object_recognition_widget_temp.dart:5:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\features\learning\presentation\widgets\pronunciation_widget.dart:12:9 - use_super_parameters
+   info - 'infoCircle' is deprecated and shouldn't be used. Use "circleInfo" instead - lib\features\learning\presentation\widgets\pronunciation_widget.dart:554:36 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\widgets\pronunciation_widget.dart:746:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\widgets\pronunciation_widget.dart:751:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\widgets\pronunciation_widget.dart:777:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\widgets\pronunciation_widget.dart:802:7 - avoid_print
+   info - 'checkCircle' is deprecated and shouldn't be used. Use "circleCheck" instead - lib\features\learning\presentation\widgets\pronunciation_widget.dart:817:60 - deprecated_member_use
+   info - 'exclamationTriangle' is deprecated and shouldn't be used. Use "triangleExclamation" instead - lib\features\learning\presentation\widgets\pronunciation_widget.dart:818:60 - deprecated_member_use
+   info - 'timesCircle' is deprecated and shouldn't be used. Use "circleXmark" instead - lib\features\learning\presentation\widgets\pronunciation_widget.dart:819:29 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\features\learning\presentation\widgets\pronunciation_widget.dart:843:7 - avoid_print
+   info - Parameter 'key' could be a super parameter - lib\features\quiz\presentation\pages\quiz_audio_page.dart:7:9 - use_super_parameters
+   info - The private field _userAnswers could be 'final' - lib\features\quiz\presentation\pages\quiz_audio_page.dart:17:16 - prefer_final_fields
+   info - The private field _questions could be 'final' - lib\features\quiz\presentation\pages\quiz_audio_page.dart:20:27 - prefer_final_fields
+   info - Missing type annotation - lib\features\quiz\presentation\pages\quiz_audio_page.dart:331:3 - strict_top_level_inference
+   info - Don't use 'BuildContext's across async gaps - lib\features\quiz\presentation\pages\quiz_page.dart:277:9 - use_build_context_synchronously
+   info - Parameter 'key' could be a super parameter - lib\features\quiz\presentation\pages\quiz_visual_page.dart:7:9 - use_super_parameters
+   info - The private field _questions could be 'final' - lib\features\quiz\presentation\pages\quiz_visual_page.dart:17:28 - prefer_final_fields
+   info - Missing type annotation - lib\features\quiz\presentation\pages\quiz_visual_page.dart:309:3 - strict_top_level_inference
+   info - Parameter 'key' could be a super parameter - lib\features\quiz\presentation\pages\quiz_written_page.dart:7:9 - use_super_parameters
+   info - The private field _questions could be 'final' - lib\features\quiz\presentation\pages\quiz_written_page.dart:17:22 - prefer_final_fields
+   info - Missing type annotation - lib\features\quiz\presentation\pages\quiz_written_page.dart:326:3 - strict_top_level_inference
+   info - Don't invoke 'print' in production code - lib\features\quiz\presentation\viewmodels\quiz_realtime_viewmodel.dart:71:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\quiz\presentation\viewmodels\quiz_realtime_viewmodel.dart:74:7 - avoid_print
+   info - Use 'isNotEmpty' instead of 'length' to test whether the collection is empty - lib\features\quiz\presentation\viewmodels\quiz_viewmodel.dart:185:22 - prefer_is_empty
+   info - Parameter 'key' could be a super parameter - lib\features\user\presentation\pages\achievements_page.dart:18:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\features\user\presentation\pages\achievements_page.dart:45:9 - use_build_context_synchronously
+   info - Unnecessary use of 'toList' in a spread - lib\features\user\presentation\pages\achievements_page.dart:331:22 - unnecessary_to_list_in_spreads
+   info - Unnecessary use of string interpolation - lib\features\user\presentation\pages\achievements_page.dart:636:7 - unnecessary_string_interpolations
+   info - Parameter 'key' could be a super parameter - lib\features\user\presentation\pages\community_leaderboard_page.dart:9:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\features\user\presentation\pages\community_leaderboard_page.dart:24:7 - use_build_context_synchronously
+   info - The private field _userRank could be 'final' - lib\features\user\presentation\pages\realtime_leaderboard_page.dart:23:7 - prefer_final_fields
+   info - The private field _userPoints could be 'final' - lib\features\user\presentation\pages\realtime_leaderboard_page.dart:24:7 - prefer_final_fields
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:129:29 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:156:25 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:156:29 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:162:29 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:162:33 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:240:29 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:267:25 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:267:29 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:272:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\features\user\presentation\pages\statistics_page.dart:272:31 - unnecessary_underscores
+   info - Use the null-aware marker '?' rather than a null check via an 'if' - lib\main.dart:122:15 - use_null_aware_elements
+   info - Constructors for public widgets should have a named 'key' parameter - lib\main_backup.dart:28:9 - use_key_in_widget_constructors
+   info - Parameter 'key' could be a super parameter - lib\main_backup.dart:63:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\shared\services\analytics_service.dart:45:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\analytics_service.dart:252:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:22:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:30:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:34:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:38:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:54:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:316:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:321:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:345:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:360:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:375:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:391:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:393:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:409:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\shared\services\firebase_initialization_service.dart:413:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:20:52 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\baule_decoration.dart:94:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:108:38 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\baule_decoration.dart:123:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:140:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:141:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:148:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:149:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:187:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:189:38 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\shared\widgets\baule_decoration.dart:207:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:225:21 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\baule_decoration.dart:226:21 - deprecated_member_use
+
